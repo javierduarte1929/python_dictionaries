@@ -1,0 +1,9 @@
+student_information = {
+	'first_name': 'Henry',
+	'last_name': 'Harrigan',
+	'age': 17,
+}
+
+deleted_item = student_information.pop('last_name')
+print(student_information)
+print(f'Deleted item: {deleted_item}')
