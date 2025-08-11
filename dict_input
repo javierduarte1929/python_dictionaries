@@ -1,0 +1,23 @@
+
+# initializing values
+keys = ['full name', 'license', 'airplane flying']
+new_values = []
+dictionary = {}
+
+
+
+
+# here we make an iteration to get the new values that we are going to add
+for index, record in enumerate(keys):
+    
+    new_data = input(f'ingrese{record}..')
+    new_values.append(new_data)
+
+
+# we are iterating to fill the dict with the new data we have
+for index in range(0, len(keys)):
+    
+    dictionary[keys[index]] = new_values[index]
+
+
+print(dictionary)
