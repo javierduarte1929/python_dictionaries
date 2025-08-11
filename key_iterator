@@ -1,0 +1,10 @@
+europe_capitals_by_country = {
+	'spain' : 'madrid',
+	'france' : 'paris',
+	'germany' : 'berlin',
+	'norway' : 'oslo',
+}
+
+
+for key in europe_capitals_by_country.keys():
+    print(key)
