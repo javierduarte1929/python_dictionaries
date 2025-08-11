@@ -1,0 +1,14 @@
+capitals_by_country = {
+	'spain' : 'madrid',
+	'france' : 'paris',
+	'germany' : 'berlin',
+	'norway' : 'oslo',
+}
+
+
+#otra forma puede ver por medio de variables
+country = 'colombia'
+capital = 'medellin'
+capitals_by_country[country] = capital
+
+print(capitals_by_country)
