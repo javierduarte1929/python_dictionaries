@@ -1,0 +1,22 @@
+list_of_keys = [
+    'access_level',
+    'age',
+]
+
+employee = {
+    'name': 'John', 
+    'email': 'john@travolta.com', 
+    'access_level': 5, 
+    'age': 28
+}
+
+deleted_item={}
+
+# iterating to delete the keys we have on the list_of_keys
+for index in list_of_keys:
+    if index in employee:
+        deleted_item[index]= employee.pop(index)
+
+# printing  the deleted item and the employee dict
+print(f'Deleted item: {deleted_item}')
+print (employee)
