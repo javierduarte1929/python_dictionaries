@@ -1,0 +1,4 @@
+new_dictionary = {'fruit' : 'apple'}
+
+
+print(new_dictionary.get('fruit'))
